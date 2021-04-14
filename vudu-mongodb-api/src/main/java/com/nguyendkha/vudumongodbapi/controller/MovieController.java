@@ -22,7 +22,7 @@ public class MovieController {
     private MovieService movieService;
 
     @GetMapping("/movie")
-    public ResponseEntity<?> getAllMovie(){
+    public ResponseEntity<?> getAllMovies(){
         List<Movie> movies = movieService.getAllMovie();
         return new ResponseEntity<>(movies, movies.size() > 0 ? HttpStatus.OK : HttpStatus.NOT_FOUND);
 
@@ -37,6 +37,16 @@ public class MovieController {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.CONFLICT);
         }catch(ConstraintViolationException e){
             return new ResponseEntity<>(e.getMessage(), HttpStatus.UNPROCESSABLE_ENTITY);
+        }
+    }
+
+    @PutMapping("/movie/{id}")
+    public ResponseEntity<?> updateOneMovie(@PathVariable("id") String id, @RequestBody Movie movie){
+        try{
+            movieService.updateOneMove(id, movie);
+            return new ResponseEntity<>("Movie is successfully updated", HttpStatus.OK);
+        }catch(MovieCollectionException e){
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
 
