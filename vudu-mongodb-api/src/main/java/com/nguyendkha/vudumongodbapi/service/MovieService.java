@@ -11,4 +11,5 @@ public interface MovieService {
     public List<Movie> getAllMovie();
     void createMovie(Movie movie) throws MovieCollectionException , ConstraintViolationException;
     void updateOneMove(String id, Movie movie) throws MovieCollectionException;
+    void deleteMovie(String id) throws MovieCollectionException;
 }

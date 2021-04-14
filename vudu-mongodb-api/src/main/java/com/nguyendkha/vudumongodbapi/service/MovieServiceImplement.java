@@ -6,8 +6,6 @@ import com.nguyendkha.vudumongodbapi.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-import javax.swing.text.html.Option;
 import javax.validation.ConstraintViolationException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -63,6 +61,16 @@ public class MovieServiceImplement implements MovieService{
             movieRepository.save(movieToBeUpdated);
         } else {
             throw new MovieCollectionException(MovieCollectionException.NotFoundException(id));
+        }
+    }
+
+    @Override
+    public void deleteMovie(String id) throws MovieCollectionException {
+        Optional<Movie> movieOptional = movieRepository.findById(id);
+        if(!movieOptional.isPresent()){
+            throw new MovieCollectionException(MovieCollectionException.NotFoundException(id));
+        }else{
+            movieRepository.deleteById(id);
         }
     }
 }

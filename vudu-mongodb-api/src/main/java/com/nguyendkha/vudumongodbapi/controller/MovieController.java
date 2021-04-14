@@ -50,4 +50,14 @@ public class MovieController {
         }
     }
 
+    @DeleteMapping("/movie/{id}")
+    public ResponseEntity deleteOneMovie(@PathVariable("id") String id){
+        try{
+            movieService.deleteMovie(id);
+            return new ResponseEntity<>("movie is successfully deleted", HttpStatus.OK);
+        }catch (MovieCollectionException e){
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+
 }
