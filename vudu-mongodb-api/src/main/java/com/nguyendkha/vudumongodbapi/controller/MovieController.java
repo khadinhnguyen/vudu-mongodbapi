@@ -2,17 +2,14 @@ package com.nguyendkha.vudumongodbapi.controller;
 
 import com.nguyendkha.vudumongodbapi.exception.MovieCollectionException;
 import com.nguyendkha.vudumongodbapi.model.Movie;
-import com.nguyendkha.vudumongodbapi.repository.MovieRepository;
 import com.nguyendkha.vudumongodbapi.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.ConstraintViolationException;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class MovieController {
@@ -51,7 +48,7 @@ public class MovieController {
     }
 
     @DeleteMapping("/movie/{id}")
-    public ResponseEntity deleteOneMovie(@PathVariable("id") String id){
+    public ResponseEntity<?> deleteOneMovie(@PathVariable("id") String id){
         try{
             movieService.deleteMovie(id);
             return new ResponseEntity<>("movie is successfully deleted", HttpStatus.OK);
