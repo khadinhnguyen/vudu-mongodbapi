@@ -9,13 +9,15 @@ import java.util.List;
 
 public interface MovieService {
 
-    public List<Movie> getAllMovie();
-    public Movie getOneMovie(String id) throws MovieCollectionException;
+    List<Movie> getAllMovie();
+    List<Movie> retrieveByCategory(String category);
+    Movie getOneMovie(String id) throws MovieCollectionException;
     void createMovie(Movie movie) throws MovieCollectionException , ConstraintViolationException;
     void updateOneMove(String id, Movie movie) throws MovieCollectionException;
     void deleteMovie(String id) throws MovieCollectionException;
 
     void uploadSmallPosterImg(String id, MultipartFile file1);
+
 
 
 }

@@ -28,6 +28,17 @@ public class MovieServiceImplement implements MovieService{
             return new ArrayList<>();
         }
     }
+
+    @Override
+    public List<Movie> retrieveByCategory(String category) {
+        List<Movie> movies = movieRepository.findByCategory(category);
+        if(movies.size() > 0){
+            return movies;
+        }else{
+            return new ArrayList<>();
+        }
+    }
+
     @Override
     public Movie getOneMovie(String id) throws MovieCollectionException {
         Optional<Movie> movieOptional = movieRepository.findById(id);

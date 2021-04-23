@@ -31,13 +31,19 @@ public class MovieController {
 
 
     @GetMapping("/movie/{id}")
-    public ResponseEntity<?> retriveMovie(@PathVariable("id") String id)  {
+    public ResponseEntity<?> retrieveMovieByID(@PathVariable("id") String id)  {
         try{
             Movie movie = movieService.getOneMovie(id);
             return new ResponseEntity<>(movie, HttpStatus.OK);
         }catch (MovieCollectionException e){
             return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
         }
+    }
+
+    @GetMapping("/movie-list-category/{category}")
+    public ResponseEntity<?> retrieveMoviesByCategory(@PathVariable("category") String category){
+        List<Movie> movies = movieService.retrieveByCategory(category);
+        return new ResponseEntity<>(movies, movies.size() > 0? HttpStatus.OK: HttpStatus.NOT_FOUND);
     }
 
 
