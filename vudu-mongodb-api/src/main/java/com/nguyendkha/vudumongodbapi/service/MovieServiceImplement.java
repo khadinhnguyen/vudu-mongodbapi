@@ -5,6 +5,7 @@ import com.nguyendkha.vudumongodbapi.model.Movie;
 import com.nguyendkha.vudumongodbapi.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.ConstraintViolationException;
 import java.util.ArrayList;
@@ -27,6 +28,16 @@ public class MovieServiceImplement implements MovieService{
             return new ArrayList<>();
         }
     }
+    @Override
+    public Movie getOneMovie(String id) throws MovieCollectionException {
+        Optional<Movie> movieOptional = movieRepository.findById(id);
+        if(movieOptional.isPresent()){
+            return movieOptional.get();
+        } else {
+            throw new MovieCollectionException(MovieCollectionException.NotFoundException(id));
+        }
+    }
+
 
     @Override
     public void createMovie(Movie movie) throws MovieCollectionException, ConstraintViolationException {
@@ -62,6 +73,10 @@ public class MovieServiceImplement implements MovieService{
         } else {
             throw new MovieCollectionException(MovieCollectionException.NotFoundException(id));
         }
+    }
+    @Override
+    public void uploadSmallPosterImg(String id, MultipartFile file){
+        System.out.println("Hello");
     }
 
     @Override
