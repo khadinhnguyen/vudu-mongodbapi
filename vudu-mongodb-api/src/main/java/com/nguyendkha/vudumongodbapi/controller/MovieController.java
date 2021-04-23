@@ -46,6 +46,12 @@ public class MovieController {
         return new ResponseEntity<>(movies, movies.size() > 0? HttpStatus.OK: HttpStatus.NOT_FOUND);
     }
 
+    @GetMapping("/movie-list-feature/{feature}")
+    public ResponseEntity<?> retrieveMoviesByFeature(@PathVariable("feature") String feature){
+        List<Movie> movies = movieService.retrieveByFeature(feature);
+        return new ResponseEntity<>(movies, movies.size() > 0? HttpStatus.OK: HttpStatus.NOT_FOUND);
+    }
+
 
     @PostMapping("/movie")
     public ResponseEntity<?> createMovie(@RequestBody Movie movie){

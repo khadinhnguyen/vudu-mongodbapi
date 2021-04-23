@@ -11,6 +11,7 @@ public interface MovieService {
 
     List<Movie> getAllMovie();
     List<Movie> retrieveByCategory(String category);
+    List<Movie> retrieveByFeature(String feature);
     Movie getOneMovie(String id) throws MovieCollectionException;
     void createMovie(Movie movie) throws MovieCollectionException , ConstraintViolationException;
     void updateOneMove(String id, Movie movie) throws MovieCollectionException;

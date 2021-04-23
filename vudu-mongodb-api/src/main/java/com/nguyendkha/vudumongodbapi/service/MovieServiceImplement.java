@@ -40,6 +40,16 @@ public class MovieServiceImplement implements MovieService{
     }
 
     @Override
+    public List<Movie> retrieveByFeature(String feature) {
+        List<Movie> movies = movieRepository.findByFeature(feature);
+        if(movies.size() > 0){
+            return movies;
+        }else{
+            return new ArrayList<>();
+        }
+    }
+
+    @Override
     public Movie getOneMovie(String id) throws MovieCollectionException {
         Optional<Movie> movieOptional = movieRepository.findById(id);
         if(movieOptional.isPresent()){
