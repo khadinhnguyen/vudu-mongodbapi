@@ -31,4 +31,6 @@ public class Movie {
     private String smallPosterImg;
     private Date dateCreated;
 
+
+
 }

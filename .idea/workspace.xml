@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7082d21a-5012-4f23-9968-b9a5ff09856a" name="Default Changelist" comment="arranged file" />
+    <list default="true" id="7082d21a-5012-4f23-9968-b9a5ff09856a" name="Default Changelist" comment="arranged file">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nguyendkha/vudumongodbapi/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nguyendkha/vudumongodbapi/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1sv1bow2sNNB1cKXBxcoQTZfkWt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,9 +41,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VuduMongodbApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="vudu-mongodb-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nguyendkha.vudumongodbapi.VuduMongodbApiApplication" />
@@ -48,6 +74,9 @@
       <option name="presentableId" value="Default" />
       <updated>1621738323054</updated>
       <workItem from="1621738324372" duration="1890000" />
+      <workItem from="1621741104438" duration="1874000" />
+      <workItem from="1621794083424" duration="429000" />
+      <workItem from="1621794942688" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="arranged file">
       <created>1621739662326</created>
@@ -72,8 +101,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="arranged file" />
     <option name="LAST_COMMIT_MESSAGE" value="arranged file" />
   </component>
