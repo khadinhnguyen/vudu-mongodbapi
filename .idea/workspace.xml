@@ -3,104 +3,64 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5aa729-9424-4207-b760-e0677d64072d" name="Default Changelist" comment="initial project" />
+    <list default="true" id="7082d21a-5012-4f23-9968-b9a5ff09856a" name="Default Changelist" comment="arranged file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1r7A9uy1LYlYFkn07IVjJw8DJ5l" />
+  <component name="ProjectId" id="1sv1bow2sNNB1cKXBxcoQTZfkWt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mongodb-from-youtube" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/classes" />
-    </key>
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration name="VuduMongodbApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nguyendkha.vudumongodbapi.VuduMongodbApiApplication" />
+    <configuration name="VuduMongodbApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="vudu-mongodb-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nguyendkha.vudumongodbapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nguyendkha.vudumongodbapi.VuduMongodbApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.VuduMongodbApiApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d5aa729-9424-4207-b760-e0677d64072d" name="Default Changelist" comment="" />
-      <created>1618316606726</created>
+      <changelist id="7082d21a-5012-4f23-9968-b9a5ff09856a" name="Default Changelist" comment="" />
+      <created>1621738323054</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1618316606726</updated>
+      <updated>1621738323054</updated>
+      <workItem from="1621738324372" duration="1890000" />
     </task>
-    <task id="LOCAL-00001" summary="initial project">
-      <created>1618316781305</created>
+    <task id="LOCAL-00001" summary="arranged file">
+      <created>1621739662326</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1618316781305</updated>
+      <updated>1621739662326</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -112,32 +72,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial project" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="745" y="337" key="FileChooserDialogImpl" timestamp="1618324241801">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="745" y="337" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618324241801" />
-    <state width="1795" height="167" key="GridCell.Tab.0.bottom" timestamp="1618372061443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618372061443" />
-    <state width="1795" height="167" key="GridCell.Tab.0.center" timestamp="1618372061443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="167" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618372061443" />
-    <state width="1795" height="167" key="GridCell.Tab.0.left" timestamp="1618372061443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="167" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618372061443" />
-    <state width="1795" height="167" key="GridCell.Tab.0.right" timestamp="1618372061443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1795" height="167" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618372061443" />
+    <MESSAGE value="arranged file" />
+    <option name="LAST_COMMIT_MESSAGE" value="arranged file" />
   </component>
 </project>
