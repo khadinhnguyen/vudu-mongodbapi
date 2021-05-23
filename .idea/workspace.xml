@@ -13,14 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5aa729-9424-4207-b760-e0677d64072d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vudu-mongodb-api/src/main/java/com/nguyendkha/vudumongodbapi/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vudu-mongodb-api/src/main/java/com/nguyendkha/vudumongodbapi/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vudu-mongodb-api/src/main/java/com/nguyendkha/vudumongodbapi/repository/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vudu-mongodb-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vudu-mongodb-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vudu-mongodb-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vudu-mongodb-api/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="9d5aa729-9424-4207-b760-e0677d64072d" name="Default Changelist" comment="initial project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +47,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mongodb-from-youtube" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/classes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="VuduMongodbApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nguyendkha.vudumongodbapi.VuduMongodbApiApplication" />
@@ -64,6 +62,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
